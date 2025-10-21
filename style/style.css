@@ -10,6 +10,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    padding-top: 100px;
+    position: relative;
+}
 
 nav {
     margin: 0px;
@@ -33,7 +37,12 @@ nav {
     border: 1px black solid;
     margin-left: 98px;
 }
-
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
 
 
 .links {
