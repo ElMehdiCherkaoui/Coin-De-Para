@@ -1,52 +1,125 @@
 /* This is for ELMehdiCherkaoui */
 @media (max-width: 767px) {
-    * {
-  margin: 0;
-  padding: 0;
-}
+  * {
+    margin: 0;
+    padding: 0;
+  }
   .nav-desk {
     display: none;
   }
-.nav-mobile {
+  .nav-mobile {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #eaf4f4;
     padding: 10px 20px;
-}
+  }
 
-.nav-mobile .logo img {
+  .nav-mobile .logo img {
     width: 60px;
     height: 60px;
-}
-.icon-nav{
+  }
+  .icon-nav {
     width: 10%;
-}
+  }
 
-.flex-item {
-
-    
-    background-color: #6B9080;
+  .flex-item {
+    background-color: #6b9080;
     gap: 50px;
     padding: 1em;
     border-radius: 2em;
     display: flex;
     justify-content: center;
-}
+  }
 
-.product-title-mobile{
+  .product-title-mobile {
     padding: 1em;
-}
+  }
 
-.product-container-mobile{
+  .product-container-mobile {
     padding: 1em;
-}
-.product-items-mobile{
-    background-color: #d4f0e0;
+  }
+  .product-items-mobile {
+    background-color: #eaf4f4;
     border-radius: 10px;
+    padding: 2.9em;
+  }
+  .produits-mobile {
+    display: grid;
+    background-color: white;
+    text-align: center;
+    padding: 1em 0em;
+    border-radius: 5%;
+    overflow: hidden;
+  }
+  .product-img {
+    display: flex;
+    justify-content: center;
+  }
+  .product-items {
+    display: grid;
+    gap: 10px;
+  }
+  .padding-fix {
+    padding: 10px;
+  }
+  .content-buy {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+  }
+  .content-buy span {
+    background-color: #cce3de;
+    border-radius: 20px;
+    padding: 0em 1em;
+  }
+  .content-buy a {
+    background-color: #eaf4f4;
+    border: #6b9080 1px solid;
+    border-radius: 20px;
+    padding: 0em 0.8em;
+    text-decoration: none;
+    color: black;
+  }
+  .content-buy a:hover {
+    background-color: #6b9080;
+  }
+  .botton-product span {
+    background-color: #f6fff8;
+    border: black 1px solid;
+    font-size: 1.1em;
+    border-radius: 20px;
+    padding: 0.5em 2em;
+  }
+  .botton-product {
+    display: grid;
+    padding: 0em 1em;
+  }
+  .botton-product span:active {
+    background-color: #6b9080;
+  }
+  .footer-mobile h3 {
+    text-align: center;
+    line-height: 2em;
+  }
+  .footer-desk {
+    display: none;
+  }
+  .location-ft {
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+    line-height: 1.5em;
+  }
+  .location-ft span {
+    text-align: center;
+    display: grid;
+    padding: 0em 0 1em 0;
+  }
+  .arrow {
+    display: none;
+  }
 }
-}
-
 
 @media (min-width: 1280px) {
   * {
@@ -101,6 +174,101 @@
   }
   .nav-mobile {
     display: none;
+  }
+  .footer-mobile {
+    display: none;
+  }
+  .product-container-mobile {
+    padding: 2em;
+  }
+  .product-items-mobile {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr 2fr 2fr 0.5fr;
+    align-items: center;
+    padding: 0em 2em;
+    background-color: #eaf4f4;
+    border-radius: 40px;
+  }
+  .produits-mobile {
+    display: grid;
+
+    background-color: white;
+    text-align: center;
+    padding: 1em 0em;
+    border-radius: 5%;
+    overflow: hidden;
+  }
+  .product-items-mobile img {
+    width: 10em;
+  }
+  .padding-fix {
+    padding: 3em 2em;
+  }
+  .product-items {
+    display: grid;
+    gap: 10px;
+  }
+  .product-title-mobile {
+    padding: 1em 33em;
+    display: grid;
+    text-align: center;
+  }
+  .flex-item {
+    background-color: #6b9080;
+    border-radius: 20px;
+    padding: 0.5em 0;
+  }
+  .flex-item h2 {
+    color: white;
+  }
+  .arrow {
+    background-color: white;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .arrow a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+  }
+
+  .content-buy {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+  }
+  .content-buy span {
+    background-color: #cce3de;
+    border-radius: 20px;
+    padding: 0em 1em;
+  }
+  .content-buy a {
+    background-color: #eaf4f4;
+    border: #6b9080 1px solid;
+    border-radius: 20px;
+    padding: 0em 0.8em;
+    text-decoration: none;
+    color: black;
+  }
+  .content-buy a:hover {
+    background-color: #6b9080;
+  }
+  .botton-product span {
+    background-color: #f6fff8;
+    border: black 1px solid;
+    font-size: 1.1em;
+    border-radius: 20px;
+    padding: 0.5em 2em;
+  }
+  .botton-product {
+    display: grid;
+    padding: 0em 1em;
+  }
+  .botton-product span:active {
+    background-color: #6b9080;
   }
 }
 /* This is for Mariam Elhaimer */
