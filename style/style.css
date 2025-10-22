@@ -63,9 +63,13 @@ nav {
     margin: 42px auto;
     border-radius: 40px;
     padding: 40px;
+    
+    
+}
+
+.pd-container {
     display: flex;
     justify-content: space-between;
-    border: yellowgreen 3px solid;
 }
 
 .pd-infos {
@@ -118,7 +122,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 66%;
-    border: #18A661 2px solid;
+    
 }
 
 .pd-price h2 {
@@ -157,27 +161,158 @@ nav {
 }
 
 
+
+.pd-image {
+    
+    height: fit-content;
+}
+.pd-image img{
+    
+    height: fit-content;
+}
+
+
+
+.pd-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+
+.adding {
+    border: #000 1px solid;
+    border-radius: 12px;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adding div {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.reviews {
+    
+    margin-top: 50px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.reviews p {
+    text-align: center;
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.review-container h2 {
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 500;
+}
+
+.review-container button {
+    background-color: #18A661;
+    border: none;
+    color: white;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+
+
 @media (min-width: 375px) and (max-width: 767px) {
     .Product-details {
-        display: flex;
-        flex-direction: column-reverse;
-        border: #000 2px solid;
         
+        border: #000 2px solid;
+        width: 100%;
+        padding: 30px;
 
     }
 
+    .pd-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+
     .pd-infos {
-        border: yellowgreen 2px solid;
-        width: 99%;
+        width: 100%;
         margin: auto;
         padding-top: 20px;
     }
 
 
-    .pd-image {
-        text-align: center;
-        width: 90%;
+
+    .pd-image img{
+        width: 100%;
         height: auto;
-        margin: auto;
+        border-radius: 40px;
+        box-shadow: 0 0 10px rgb(81, 81, 81);
     }
+
+    .pd-image {
+        height: fit-content;
+    }
+
+    .pd-price {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .pd-btn {
+        width: 100%;
+        
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+        
+    }
+
+    .add-to-cart {
+        padding: 10px;
+        
+        padding: 0;
+    }
+
+    .reviews {
+        
+        display: flex;
+        height: fit-content;
+        padding: 0;
+        margin-top: 80px;
+        gap: 30px;
+    }
+
+    .review-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        justify-content: space-between;
+        gap: 32px;
+        height: fit-content;
+    }
+    
+    .review-container button {
+        width: fit-content;
+        
+        padding: 15px ;
+        font-size: larger;
+        font-weight: bold;
+    }
+    
+
 }
