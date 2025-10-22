@@ -9,6 +9,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+    
 }
 
 nav {
@@ -52,3 +55,129 @@ nav {
 }
 
 /* This is for Mohamed El Hamdaoui */
+
+.Product-details {
+    background-color: #EAF4F4;
+    height: fit-content;
+    width: 90%;
+    margin: 42px auto;
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: yellowgreen 3px solid;
+}
+
+.pd-infos {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.pd-infos h2 {
+    color: #698B80;
+    font-weight: 600  ;
+    font-size: 1.8em;
+    font-family: 'Poppins' , sans-serif;
+}
+
+
+
+
+
+.details-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.pd-infos h3 {
+    color: #000;
+    font-weight: 500;
+    font-family: 'Inter' ;
+    letter-spacing: 2px;
+    
+}
+
+.pd-infos p {
+    color: #4E4E4E;
+    font-family: Inter;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    line-height: 1.8em;
+}
+
+
+
+.pd-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 66%;
+    border: #18A661 2px solid;
+}
+
+.pd-price h2 {
+    color: #000;
+    font-size: 40PX;
+}
+
+.add-to-cart button {
+    width: 200px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #18A661;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.wishlist-btn button{
+    color: #18A661 ;
+    background-color: transparent;
+    
+    padding: 2px 3px;
+    border-radius: 40px;
+    border: #18A661 1.6px solid;
+    cursor: pointer;
+}
+
+.wishlist-btn{
+    font-size: larger;
+}
+
+.wishlist-btn span {
+    color: #18A661 ;
+    font-weight: bold;
+}
+
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .Product-details {
+        display: flex;
+        flex-direction: column-reverse;
+        border: #000 2px solid;
+        
+
+    }
+
+    .pd-infos {
+        border: yellowgreen 2px solid;
+        width: 99%;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+
+    .pd-image {
+        text-align: center;
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+}
