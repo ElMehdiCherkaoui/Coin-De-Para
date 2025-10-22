@@ -6,9 +6,13 @@
 
 /* This is for Mohamed Attefi */
 
-* {
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
     margin: 0;
     padding: 0;
+    font-family: inter;
 }
 
 nav {
@@ -21,7 +25,8 @@ nav {
     border: 1px black solid;
     background-color: #EAF4F4;
 }
-#Line{
+
+#Line {
     width: 184px;
     height: 1px;
     align-self: center;
@@ -42,13 +47,114 @@ nav {
     align-items: center;
     gap: 40px;
     margin-right: 98px;
-    
+
 
 }
 
 .links a {
     text-decoration: none;
     color: #6B9080;
+    font-size: 1rem;
 }
 
+.Categories-column {
+    display: flex;
+    border: 1px black solid;
+    padding: 50px 0;
+    flex-shrink: 2;
+    align-content:space-between ;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+@media (max-width: 767px) {
+    .Categories-column{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.Categories-item{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    width: 250px;
+    height: 400px;
+    padding: 10px 15px;
+}
+
+.Categories-item ul li {
+    list-style: none;
+    font-size: 1rem;
+    
+}
+.Categories-item ul{
+    margin-top: 3.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Categories-main-content {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Categories-content {
+    border: 1px black solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EAF4F4;
+}
+
+#Categories-title {
+    margin: 50px 0;
+    width: 460px;
+    background-color: #A4C3B2;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 0;
+}
+.Categories-button{
+    margin-top: 50%;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 14px;
+    border: none;
+    background-color: #B2D7D7;
+    color: black;
+    -webkit-text-stroke: 0.3px white;
+}
+.Categories-item h2{
+    width: 112%;
+    background-color: #A4C3B2;
+    padding: 0;
+    margin-left: 0;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    transform: translate(-15px, -10px);
+    -webkit-text-stroke: 0.25px white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#item1{
+    background-image: url(/images/BG1.png);
+}
+#item2{
+    background-image: url(/images/BG3.png);
+}
+#item1{
+    background-image: url();
+}
 /* This is for Mohamed El Hamdaoui */
