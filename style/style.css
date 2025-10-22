@@ -1,10 +1,48 @@
 /* This is for ELMehdiCherkaoui */
 
 /* This is for Mariam Elhaimer */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-first-section-mo {
+  background-color: rgb(146, 189, 175);
+
+  text-align: center;
+  padding: 2em 1em;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+.home-first-section-mo h1 {
+  font-size: 1.2em;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 1em;
+}
+.home-first-section-mo p{
+    margin-bottom: 2em;
+}
+.home-btn-contact-mo {
+  background-color: rgb(71, 124, 84);
+  color: white;
+  font-size: 1rem;
+  border-radius: 2em;
+  text-decoration: none;
+  padding: 0.8em 2em; 
+}
+.home-btn-first-mo {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+}
+
+
 
 /* This is for Reda Louraibi */
 
 /* This is for Mohamed Attefi */
 
 /* This is for Mohamed El Hamdaoui */
-
