@@ -270,6 +270,24 @@
   .botton-product span:active {
     background-color: #6b9080;
   }
+  .footer-bg{
+    background-color: #6b9080;
+    padding: 2em;
+  }
+  .footer-content{
+    display: flex;
+  }
+
+  .contact-content{
+display: flex;
+justify-content: space-between;
+gap: 2rem;
+margin-top: 10px;
+  }
+.right-footer{
+  text-align: center;
+}
+
 }
 /* This is for Mariam Elhaimer */
 
