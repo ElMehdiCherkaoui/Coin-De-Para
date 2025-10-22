@@ -1,5 +1,108 @@
 /* This is for ELMehdiCherkaoui */
+@media (max-width: 767px) {
+    * {
+  margin: 0;
+  padding: 0;
+}
+  .nav-desk {
+    display: none;
+  }
+.nav-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaf4f4;
+    padding: 10px 20px;
+}
 
+.nav-mobile .logo img {
+    width: 60px;
+    height: 60px;
+}
+.icon-nav{
+    width: 10%;
+}
+
+.flex-item {
+
+    
+    background-color: #6B9080;
+    gap: 50px;
+    padding: 1em;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.product-title-mobile{
+    padding: 1em;
+}
+
+.product-container-mobile{
+    padding: 1em;
+}
+.product-items-mobile{
+    background-color: #d4f0e0;
+    border-radius: 10px;
+}
+}
+
+
+@media (min-width: 1280px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    padding-top: 100px;
+    position: relative;
+  }
+
+  .nav-desk {
+    margin: 0px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #eaf4f4;
+  }
+  #Line {
+    width: 184px;
+    height: 1px;
+    align-self: center;
+  }
+
+  .logo {
+    width: 99px;
+    height: 99px;
+
+    margin-left: 98px;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+
+  .links {
+    display: flex;
+
+    align-items: center;
+    gap: 40px;
+    margin-right: 98px;
+  }
+
+  .links a {
+    text-decoration: none;
+    color: #6b9080;
+  }
+  .nav-mobile {
+    display: none;
+  }
+}
 /* This is for Mariam Elhaimer */
 
 /* This is for Reda Louraibi */
@@ -7,4 +110,3 @@
 /* This is for Mohamed Attefi */
 
 /* This is for Mohamed El Hamdaoui */
-
