@@ -15,7 +15,7 @@
 }
 
 body {
-    padding-top: 100px;
+    padding-top: 7.8vw;
     position: relative;
 }
 
@@ -26,8 +26,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px black solid;
     background-color: #EAF4F4;
+    box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.5);
 }
 
 #Line {
@@ -41,6 +41,8 @@ nav {
     width: 7.5vw;
     height: 7.5vw;
     border: 1px black solid;
+    width: 7.5vw;
+    height: 7.5vw;
     margin-left: 98px;
 }
 
@@ -58,7 +60,6 @@ header {
 
 .links {
     display: flex;
-    border: 1px black solid;
     align-items: center;
     gap: 40px;
     margin-right: 98px;
@@ -72,13 +73,18 @@ header {
     font-size: 1rem;
 }
 
-.logo,
-.logo img {
-    width: 7.5vw;
-    height: 7.5vw;
-    border: 1px black solid;
-
+.Categories-column {
+    display: flex;
+    padding: 10vh 0;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
 }
+a:hover{
+        transform: translateY(-2px);
+        text-shadow: 0.5px 0.5px 1px black;
+     }
+
 @media (max-width: 767px) {
     .Categories-column {
         display: flex;
@@ -95,22 +101,25 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        border: 1px black solid;
         background-color: #EAF4F4;
+        box-shadow: 10px 10px 15px hsla(0, 0%, 0%, 0.5);
+
     }
 
     .links a {
         display: none;
         text-decoration: none;
-        color: #6B9080;
+        color: #31413a;
         font-size: 1rem;
     }
+    a:hover{
+        transform: translateY(-2px);
+     }
 
     .logo,
     .logo img {
         width: 7.5vw;
         height: 7.5vw;
-        border: 1px black solid;
 
     }
 
@@ -127,7 +136,6 @@ header {
     .bg-menu {
         display: flex;
         flex-direction: column;
-        border: 1px black solid;
         width: 7.5vw;
         align-items: end;
         margin-right: -80vw;
@@ -155,11 +163,11 @@ header {
         visibility: hidden;
         margin-top: 7.7vw;
         position: absolute;
+        right: -50%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         gap: 5vh;
-        border: 1px black solid;
         width: 50vw;
         height: 80vh;
         margin-right: -7vw;
@@ -174,18 +182,189 @@ header {
         font-size: 1rem;
     }
 
-    a button {
+    #button {
         margin-top: 50%;
-        width: 100px;
-        height: 30px;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 20px;
         border-radius: 5px;
         font-weight: bolder;
         font-size: 14px;
         border: none;
         background-color: #B2D7D7;
         color: black;
-        -webkit-text-stroke: 0.3px white;
+        box-shadow: 10px 10px 15px hsla(0, 0%, 0%, 0.5);
+
     }
 }
+
+.Categories-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    width: 250px;
+    height: 400px;
+    padding: 10px 15px;
+    position: relative;
+    box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.25);
+}
+
+.Categories-item ul li {
+    list-style: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.logo,
+.logo img {
+    width: 7.5vw;
+    height: 7.5vw;
+
+}
+
+.Categories-item ul {
+    margin-top: 3.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Categories-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Categories-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EAF4F4;
+}
+
+#Categories-title {
+    margin: 50px 0;
+    width: 90vw;
+    background-color: #A4C3B2;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 0;
+}
+
+.Categories-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 14px;
+    border: none;
+    background-color: #B2D7D7;
+    color: black;
+    position: absolute;
+    bottom: 5%;
+    box-shadow: 10px 10px 15px hsla(0, 0%, 0%, 0.5);
+
+}
+
+.Categories-item h2 {
+    width: 112%;
+    background-color: #A4C3B2;
+    padding: 20px 0;
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    transform: translate(-15px, -10px);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#item1 {
+    background-image: url(/images/BG8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#item2 {
+    background-image: url(/images/bg7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#item3 {
+    background-image: url(/images/BG6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+#item4 {
+    background-image: url(/images/BG11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+#item5 {
+    background-image: url(/images/BG5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+
+#item6 {
+    background-image: url(/images/BG1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+
+
+#item7 {
+    background-image: url(/images/BG8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#item8 {
+    background-image: url(/images/BG12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
 
 /* This is for Mohamed El Hamdaoui */
