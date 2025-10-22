@@ -46,3 +46,58 @@
 /* This is for Mohamed Attefi */
 
 /* This is for Mohamed El Hamdaoui */
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 100px;
+    position: relative;
+}
+
+nav {
+    margin: 0px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px black solid;
+    background-color: #EAF4F4;
+}
+#Line{
+    width: 184px;
+    height: 1px;
+    align-self: center;
+}
+
+.logo {
+    width: 99px;
+    height: 99px;
+    border: 1px black solid;
+    margin-left: 98px;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+
+.links {
+    display: flex;
+    border: 1px black solid;
+    align-items: center;
+    gap: 40px;
+    margin-right: 98px;
+    
+
+}
+
+.links a {
+    text-decoration: none;
+    color: #6B9080;
+}
+
+/* This is for Mohamed El Hamdaoui */
