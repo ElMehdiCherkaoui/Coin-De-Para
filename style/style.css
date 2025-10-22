@@ -230,6 +230,162 @@ nav {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.similar-product {
+    background-color: #EAF4F4;
+    height: fit-content;
+    width: 90%;
+    margin: 42px auto;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+.similar-product > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+    height: 80px;
+}
+
+
+
+.similar-product-card {
+    
+    border-radius: 14px;
+    width: 48%;
+    text-align: center;
+    height: 200px;
+    border: grey 1px solid;
+    display: flex;
+    background-color: #fff;
+}
+
+.similar-product-card:hover {
+  /* Styles for when the card is hovered */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust values for desired effect */
+}
+
+
+.similar-product-card img {
+    border-radius: 14px 0px 0px 14px;
+}
+
+
+.similar-product-card h3 {
+    
+    color: #000;
+    height: fit-content;
+    width: 100%;
+    letter-spacing: 0.5px;
+       
+}
+.infos {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 11px;
+    border-left: #000 0.5px solid;
+    
+}
+
+.infos  button{
+    border: #18A661 2px solid;
+    background-color: transparent;
+    color: #18A661;
+    padding: 5px;
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.infos p{
+    font-size: small;
+    color: rgb(79, 79, 79);
+}
+
+
+.infos  button:hover{
+    background-color: #18A661;
+    color: #fff;
+
+}
+
+
+.similar-product-container {
+    display: flex;
+    gap: 14px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 375px) and (max-width: 767px) {
     .Product-details {
         
@@ -314,5 +470,34 @@ nav {
         font-weight: bold;
     }
     
+
+
+
+
+
+
+
+
+    .similar-product-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .similar-product-card {
+        width: 100%;
+    }
+
+    .similar-product-card img{
+        width: 200px;
+    }
+
+
+
+
+
+
+
+
 
 }
