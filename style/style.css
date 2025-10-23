@@ -1265,21 +1265,26 @@ a:hover {
 
 @media (min-width: 375px) and (max-width: 767px) {
   .Product-details {
-    border: #000 2px solid;
-    width: 100%;
-    padding: 30px;
+    width: 90%;
+    padding: 25px;
   }
 
   .pd-container {
     display: flex;
     flex-direction: column-reverse;
+    
+    
   }
 
   .pd-infos {
     width: 100%;
     margin: auto;
     padding-top: 20px;
+    
   }
+
+  
+
 
   .pd-image img {
     width: 100%;
@@ -1300,17 +1305,31 @@ a:hover {
 
   .pd-btn {
     width: 100%;
+    
 
     display: flex;
-    justify-content: flex-start;
-    gap: 30px;
+    justify-content: space-between;
+    
+  }
+
+  .add-to-cart button {
+    width: fit-content;
+    padding: 5px;
+    height: fit-content;
+    border-radius: 9px;
   }
 
   .add-to-cart {
     padding: 10px;
-
     padding: 0;
   }
+
+
+.adding {
+  width: 70%;
+  margin: auto;
+  
+}
 
   .reviews {
     display: flex;
@@ -1341,16 +1360,55 @@ a:hover {
   .similar-product-container {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
   }
 
   .similar-product-card {
+    display: flex;
+    flex-direction: column;
+    
+    height: fit-content;
     width: 100%;
   }
 
-  .similar-product-card img {
-    width: 200px;
+  .infos {
+    border: none ;
+    display: flex;
+    gap: 11px;
+    
+    
   }
+  .infos h3 { 
+    font-size: medium;
+  }
+
+  .infos p { 
+    font-size:small ;
+  }
+
+.infos button {
+  
+  margin-bottom: 20px;
+  width: fit-content;
+  
+}
+
+
+
+
+  
+
+  .similar-product-card img {
+    width: 100%;
+    border-bottom: #000 1px solid;
+    margin-bottom: 12px;
+    border-radius: 14px 14px 0px 0px;
+  }
+
+
+
+
+
 }
 
 @media (max-width: 767px) {
