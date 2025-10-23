@@ -1,237 +1,278 @@
 /* This is for ELMehdiCherkaoui */
 @media (max-width: 767px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  .nav-desk {
-    display: none;
-  }
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-  .flex-item {
-    background-color: #6b9080;
-    gap: 50px;
-    padding: 1em;
-    border-radius: 2em;
-    display: flex;
-    justify-content: center;
-  }
+    .nav-desk {
+        display: none;
+    }
 
-  .product-title-mobile {
-    padding: 1em;
-  }
+    .flex-item {
+        background-color: #6b9080;
+        gap: 50px;
+        padding: 1em;
+        border-radius: 2em;
+        display: flex;
+        justify-content: center;
+    }
 
-  .product-container-mobile {
-    padding: 1em;
-  }
-  .product-items-mobile {
-    background-color: #eaf4f4;
-    border-radius: 10px;
-    padding: 2.9em;
-  }
-  .produits-mobile {
-    display: grid;
-    background-color: white;
-    text-align: center;
-    padding: 1em 0em;
-    border-radius: 5%;
-    overflow: hidden;
-  }
-  .product-img {
-    display: flex;
-    justify-content: center;
-  }
-  .product-items {
-    display: grid;
-    gap: 10px;
-  }
-  .padding-fix {
-    padding: 10px;
-  }
-  .content-buy {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1em;
-  }
-  .content-buy span {
-    background-color: #cce3de;
-    border-radius: 20px;
-    padding: 0em 1em;
-  }
-  .content-buy a {
-    background-color: #eaf4f4;
-    border: #6b9080 1px solid;
-    border-radius: 20px;
-    padding: 0em 0.8em;
-    text-decoration: none;
-    color: black;
-  }
-  .content-buy a:hover {
-    background-color: #6b9080;
-  }
-  .botton-product span {
-    background-color: #f6fff8;
-    border: black 1px solid;
-    font-size: 1.1em;
-    border-radius: 20px;
-    padding: 0.5em 2em;
-  }
-  .botton-product {
-    display: grid;
-    padding: 0em 1em;
-  }
-  .botton-product span:active {
-    background-color: #6b9080;
-  }
-  .footer-mobile h3 {
-    text-align: center;
-    line-height: 2em;
-  }
-  .footer-desk {
-    display: none;
-  }
-  .location-ft {
-    display: flex;
-    margin-left: 10px;
-    gap: 10px;
-    line-height: 1.5em;
-  }
-  .location-ft span {
-    text-align: center;
-    display: grid;
-    padding: 0em 0 1em 0;
-  }
-  .arrow {
-    display: none;
-  }
+    .product-title-mobile {
+        padding: 1em;
+    }
+
+    .product-container-mobile {
+        padding: 1em;
+    }
+
+    .product-items-mobile {
+        background-color: #eaf4f4;
+        border-radius: 10px;
+        padding: 2.9em;
+    }
+
+    .produits-mobile {
+        display: grid;
+        background-color: white;
+        text-align: center;
+        padding: 1em 0em;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .product-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-items {
+        display: grid;
+        gap: 10px;
+    }
+
+    .padding-fix {
+        padding: 10px;
+    }
+
+    .content-buy {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1em;
+    }
+
+    .content-buy span {
+        background-color: #cce3de;
+        border-radius: 20px;
+        padding: 0em 1em;
+    }
+
+    .content-buy a {
+        background-color: #eaf4f4;
+        border: #6b9080 1px solid;
+        border-radius: 20px;
+        padding: 0em 0.8em;
+        text-decoration: none;
+        color: black;
+    }
+
+    .content-buy a:hover {
+        background-color: #6b9080;
+    }
+
+    .botton-product span {
+        background-color: #f6fff8;
+        border: black 1px solid;
+        font-size: 1.1em;
+        border-radius: 20px;
+        padding: 0.5em 2em;
+    }
+
+    .botton-product {
+        display: grid;
+        padding: 0em 1em;
+    }
+
+    .botton-product span:active {
+        background-color: #6b9080;
+    }
+
+    .footer-mobile h3 {
+        text-align: center;
+        line-height: 2em;
+    }
+
+    .footer-desk {
+        display: none;
+    }
+
+    .location-ft {
+        display: flex;
+        margin-left: 10px;
+        gap: 10px;
+        line-height: 1.5em;
+    }
+
+    .location-ft span {
+        text-align: center;
+        display: grid;
+        padding: 0em 0 1em 0;
+    }
+
+    .arrow {
+        display: none;
+    }
 }
 
 @media (min-width: 1280px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    padding-top: 100px;
-    position: relative;
-  }
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-  .nav-mobile {
-    display: none;
-  }
-  .footer-mobile {
-    display: none;
-  }
-  .product-container-mobile {
-    padding: 2em;
-  }
-  .product-items-mobile {
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 2fr 2fr 2fr 0.5fr;
-    align-items: center;
-    padding: 0em 2em;
-    background-color: #eaf4f4;
-    border-radius: 40px;
-  }
-  .produits-mobile {
-    display: grid;
+    body {
+        padding-top: 100px;
+        position: relative;
+    }
 
-    background-color: white;
-    text-align: center;
-    padding: 1em 0em;
-    border-radius: 5%;
-    overflow: hidden;
-  }
-  .product-items-mobile img {
-    width: 10em;
-  }
-  .padding-fix {
-    padding: 3em 2em;
-  }
-  .product-items {
-    display: grid;
-    gap: 10px;
-  }
-  .product-title-mobile {
-    padding: 1em 33em;
-    display: grid;
-    text-align: center;
-  }
-  .flex-item {
-    background-color: #6b9080;
-    border-radius: 20px;
-    padding: 0.5em 0;
-  }
-  .flex-item h2 {
-    color: white;
-  }
-  .arrow {
-    background-color: white;
-    border-radius: 50%;
-    height: 25px;
-    width: 25px;
-    display: flex;
-    justify-content: center;
-  }
-  .arrow a {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-  }
+    .nav-mobile {
+        display: none;
+    }
 
-  .content-buy {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1em;
-  }
-  .content-buy span {
-    background-color: #cce3de;
-    border-radius: 20px;
-    padding: 0em 1em;
-  }
-  .content-buy a {
-    background-color: #eaf4f4;
-    border: #6b9080 1px solid;
-    border-radius: 20px;
-    padding: 0em 0.8em;
-    text-decoration: none;
-    color: black;
-  }
-  .content-buy a:hover {
-    background-color: #6b9080;
-  }
-  .botton-product span {
-    background-color: #f6fff8;
-    border: black 1px solid;
-    font-size: 1.1em;
-    border-radius: 20px;
-    padding: 0.5em 2em;
-  }
-  .botton-product {
-    display: grid;
-    padding: 0em 1em;
-  }
-  .botton-product span:active {
-    background-color: #6b9080;
-  }
-  .footer-bg {
-    background-color: #F6FFF8;
-    padding: 2em;
-  }
-  .footer-content {
-    display: flex;
-  }
+    .footer-mobile {
+        display: none;
+    }
 
-  .contact-content {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-    margin-top: 10px;
-  }
-  .right-footer {
-    text-align: center;
-  }
+    .product-container-mobile {
+        padding: 2em;
+    }
+
+    .product-items-mobile {
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 2fr 2fr 2fr 0.5fr;
+        align-items: center;
+        padding: 0em 2em;
+        background-color: #eaf4f4;
+        border-radius: 40px;
+    }
+
+    .produits-mobile {
+        display: grid;
+
+        background-color: white;
+        text-align: center;
+        padding: 1em 0em;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+
+    .product-items-mobile img {
+        width: 10em;
+    }
+
+    .padding-fix {
+        padding: 3em 2em;
+    }
+
+    .product-items {
+        display: grid;
+        gap: 10px;
+    }
+
+    .product-title-mobile {
+        padding: 1em 33em;
+        display: grid;
+        text-align: center;
+    }
+
+    .flex-item {
+        background-color: #6b9080;
+        border-radius: 20px;
+        padding: 0.5em 0;
+    }
+
+    .flex-item h2 {
+        color: white;
+    }
+
+    .arrow {
+        background-color: white;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .arrow a {
+        text-decoration: none;
+        font-size: 1.2em;
+        color: black;
+    }
+
+    .content-buy {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1em;
+    }
+
+    .content-buy span {
+        background-color: #cce3de;
+        border-radius: 20px;
+        padding: 0em 1em;
+    }
+
+    .content-buy a {
+        background-color: #eaf4f4;
+        border: #6b9080 1px solid;
+        border-radius: 20px;
+        padding: 0em 0.8em;
+        text-decoration: none;
+        color: black;
+    }
+
+    .content-buy a:hover {
+        background-color: #6b9080;
+    }
+
+    .botton-product span {
+        background-color: #f6fff8;
+        border: black 1px solid;
+        font-size: 1.1em;
+        border-radius: 20px;
+        padding: 0.5em 2em;
+    }
+
+    .botton-product {
+        display: grid;
+        padding: 0em 1em;
+    }
+
+    .botton-product span:active {
+        background-color: #6b9080;
+    }
+
+    .footer-bg {
+        background-color: #F6FFF8;
+        padding: 2em;
+    }
+
+    .footer-content {
+        display: flex;
+    }
+
+    .contact-content {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        margin-top: 10px;
+    }
+
+    .right-footer {
+        text-align: center;
+    }
 }
+
 /* This is for Mariam Elhaimer */
 
 /* This is for Reda Louraibi */
@@ -243,6 +284,7 @@
     flex-wrap: wrap;
     background-color: #DCF8F3;
 }
+
 #faq-title {
     margin: auto;
     width: 100%;
@@ -255,6 +297,7 @@
     border-radius: 30px;
     padding: 5px 0;
 }
+
 .content {
     display: flex;
     gap: 30px;
@@ -265,7 +308,7 @@
 }
 
 .column {
-    flex :1;
+    flex: 1;
     background: #CCE3DE;
     border-radius: 20px;
     display: flex;
@@ -278,13 +321,13 @@
     border-radius: 20px;
     padding: 15px;
     display: flex;
-    
-        
+
+
 }
 
 .faq-item {
 
-background-color: #EAF4F4;    
+    background-color: #EAF4F4;
     border-radius: 10px;
     padding: 18px 20px;
     display: flex;
@@ -322,6 +365,7 @@ background-color: #EAF4F4;
     color: #1a1a1a;
     flex-shrink: 0;
 }
+
 .form-title {
     color: #3B7A8F;
     text-align: center;
@@ -441,9 +485,6 @@ label {
 
 body {
     padding-top: 7.8vw;
-
-body {
-    padding-top: 7.8vw;
     position: relative;
 }
 
@@ -457,12 +498,15 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: #EAF4F4;
-		box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.2);
+    box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.2);
     box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.5);
 }
 
+a:active {
+    scale: 0.9;
+}
 
-#Line  {
+#Line {
     width: 184px;
     height: 1px;
     align-self: center;
@@ -481,7 +525,7 @@ nav {
 }
 
 
-header  {
+header {
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -520,10 +564,11 @@ header  {
     align-content: center;
     justify-content: space-around;
 }
-a:hover{
-        transform: translateY(-2px);
-        text-shadow: 0.5px 0.5px 1px black;
-     }
+
+a:hover {
+    transform: translateY(-2px);
+    text-shadow: 0.5px 0.5px 1px black;
+}
 
 @media (max-width: 767px) {
     .Categories-column {
@@ -532,6 +577,11 @@ a:hover{
         gap: 10vh;
         align-items: center;
         justify-content: center;
+    }
+
+    a:active {
+        scale: 1 !important;
+        transform: translate(0) !important;
     }
 
     nav {
@@ -552,9 +602,10 @@ a:hover{
         color: #31413a;
         font-size: 1rem;
     }
-    a:hover{
+
+    a:hover {
         transform: translateY(-2px);
-     }
+    }
 
     .logo,
     .logo img {
