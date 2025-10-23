@@ -90,20 +90,6 @@
   .footer-desk {
     display: none;
   }
-  .location-ft {
-    display: flex;
-    margin-left: 10px;
-    gap: 10px;
-    line-height: 1.5em;
-  }
-  .location-ft span {
-    text-align: center;
-    display: grid;
-    padding: 0em 0 1em 0;
-  }
-  .arrow {
-    display: none;
-  }
 }
 
 @media (min-width: 1280px) {
