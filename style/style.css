@@ -140,7 +140,7 @@
     }
 
     .footer-mobile {
-        display: none;
+        visibility: hidden;
     }
 
     .product-container-mobile {
