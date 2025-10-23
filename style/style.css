@@ -680,6 +680,12 @@ label {
 * {
     margin: 0;
     padding: 0;
+    font-family: inter;
+}
+
+body {
+    padding-top: 7.8vw;
+    position: relative;
     box-sizing: border-box;
     font-family: 'Poppins' , sans-serif;
     
@@ -697,6 +703,7 @@ nav {
 
     justify-content: space-between;
     background-color: #EAF4F4;
+    box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.5);
     box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.2);
     box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.5);
 }
@@ -714,6 +721,8 @@ a:active {
 }
 
 .logo {
+    width: 7.5vw;
+    height: 7.5vw;
     width: 7.5vw;
     height: 7.5vw;
     width: 7.5vw;
@@ -755,6 +764,18 @@ header {
     color: #6B9080;
     font-size: 1rem;
 }
+
+.Categories-column {
+    display: flex;
+    padding: 10vh 0;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+a:hover{
+        transform: translateY(-2px);
+        text-shadow: 0.5px 0.5px 1px black;
+     }
 
 /* This is for Mohamed El Hamdaoui */
 
@@ -1248,10 +1269,9 @@ a:hover {
         color: #31413a;
         font-size: 1rem;
     }
-
-    a:hover {
+    a:hover{
         transform: translateY(-2px);
-    }
+     }
 
     .logo,
     .logo img {
@@ -1324,12 +1344,31 @@ a:hover {
         width: fit-content;
         height: fit-content;
         padding: 10px 20px;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 20px;
         border-radius: 5px;
         font-weight: bolder;
         font-size: 14px;
         border: none;
         background-color: #B2D7D7;
         color: black;
+        box-shadow: 10px 10px 15px hsla(0, 0%, 0%, 0.5);
+
+    }
+}
+
+.logo,
+.logo img {
+    width: 7.5vw;
+    height: 7.5vw;
+
+}
+
+
+
+
+
         box-shadow: 10px 10px 15px hsla(0, 0%, 0%, 0.5);
 
     }
