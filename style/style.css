@@ -405,6 +405,7 @@
 .home-gallerie-section-mo h2 {
   padding-bottom: 2.5rem;
 }
+<<<<<<< HEAD
 .home-gallerie-grid-mo {
   display: grid;
   grid-template-rows: 2fr 1fr;
@@ -414,6 +415,70 @@
   width: 42rem;
   gap: 2rem;
   margin: auto;
+=======
+.home-gallerie-grid-mo{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 102rem;
+    width: 42rem;
+    gap: 2rem;
+    margin: auto;
+}
+    
+.home-top-gallerie-mo{  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.home-gallerie-sec1-mo{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 2.4em;
+    width: 20rem;
+    height: 50rem;
+    gap: 2rem;
+    
+}
+.home-gallerie-sec2-mo{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    width: 20rem;
+    height: 50rem;
+    gap: 2rem;
+    
+}
+.home-low-gallerie-mo{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 2rem;
+}
+.home-gallerie-sec3-mo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.home-gallerie-img1-mo{
+    width: 20rem;
+    height:32rem;
+    border-radius: 1em;
+    object-fit: cover;
+    
+}
+.home-gallerie-img2-mo{
+    width: 20rem;
+    height: 16rem;
+    border-radius: 1em;
+    object-fit: cover;
+}
+.home-gallerie-img3-mo{
+    width: 42rem;
+    height: 16rem;
+    border-radius: 1em;
+    object-fit: cover;
+>>>>>>> cd6a2afe9b5d6f70d2bc80894801a1ce6bd8f6d6
 }
 
 .home-top-gallerie-mo {
@@ -841,6 +906,7 @@
 }
 /* This is for Mohamed Attefi */
 
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
@@ -1470,6 +1536,9 @@ a:hover {
     box-shadow: 10px 10px 15px hsla(0, 0%, 0%, 0.5);
   }
 }
+=======
+
+>>>>>>> cd6a2afe9b5d6f70d2bc80894801a1ce6bd8f6d6
 
 .Categories-item {
   display: flex;
