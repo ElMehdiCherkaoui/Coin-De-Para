@@ -1197,6 +1197,18 @@ a:hover {
     font-family: "Poppins", sans-serif;
 }
 
+.pd-bar{
+  width: 90vw;
+    background-color: #a4c3b2;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 0;
+    margin: 42px auto;
+}
+.pd-bar h1 {
+  letter-spacing: 1px;
+}
+
 .Product-details {
     background-color: #eaf4f4;
     height: fit-content;
