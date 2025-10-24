@@ -644,7 +644,6 @@
         padding: 4em 2em;
         color: black;
         font-family: Arial, sans-serif;
-        border: #000000 5px solid;
         display: flex;
         flex-direction: column;
 
@@ -657,7 +656,6 @@
     .home-btn-first-mo {
         display: flex;
         flex-direction: row;
-        border: #000000 solid 4px;
         gap: 2em;
         align-items: center;
     }
@@ -1099,7 +1097,6 @@ nav {
 .logo {
     width: 7.5vw;
     height: 7.5vw;
-    border: 1px black solid;
     width: 7.5vw;
     height: 7.5vw;
     margin-left: 98px;
