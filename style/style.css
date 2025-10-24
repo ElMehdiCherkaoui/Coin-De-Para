@@ -565,7 +565,8 @@
   .faq-item {
     background-color: #eaf4f4;
     border-radius: 10px;
-    display: flex;
+    display: grid;
+    grid-template-rows: auto;
     padding: 1em;
     box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.2);
   }
@@ -646,6 +647,15 @@
   .submit-btn i {
     font-size: 16px;
   }
+  .faq-item summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-item p{
+  color: black;
+  gap: 20px;
+} 
 }
 @media (min-width: 1280px) {
   .faq-main-content {
@@ -700,8 +710,8 @@
     background-color: #eaf4f4;
     border-radius: 10px;
     padding: 18px 20px;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-rows: auto;
     gap: 15px;
     width: 100%;
   }
@@ -832,6 +842,19 @@
   .submit-btn i {
     font-size: 16px;
   }
+.faq-item summary {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  list-style: none;
+}
+.faq-item summary:checked{
+  display: none;
+}
+.faq-item p{
+  color: black;
+  gap: 20px;
+}
 }
 /* This is for Mohamed Attefi */
 
