@@ -1,26 +1,32 @@
-# =Coin-De-Para
+# 🧴 Coin de Para  
+**Votre bien-être, notre priorité au naturel.**
 
-## 📖 Description
-This is a responsive website showcasing products with multiple pages: Home, Categories, Products, Product Details, and FAQ/Contact.  
-It includes a top products gallery, pagination for products, and a contact form with validation.  
-The website is optimized for both desktop and mobile screens.
+🌐 [Visit Website](https://coin-de-para.vercel.app/)
 
 ---
 
-## 🖥️ Features
-- **Home Page:** Banner, top products gallery, responsive layout.  
-- **Categories Page:** Browse product categories easily.  
-- **Products Page:** Display all products with 4 items per page and pagination.  
-- **Product Details Page:** Detailed product information including images, description, and price.  
-- **FAQ / Contact Page:** Frequently asked questions and a contact form with HTML pattern validation.  
-- **Responsive Design:** Works on desktop and mobile devices.  
-- **Accessibility & SEO:** Basic accessibility features and meta tags for search optimization.  
+## 🧾 Overview
+**Coin de Para** is a modern parapharmacy website offering a wide range of natural and wellness products.  
+It’s designed to be clean, responsive, and user-friendly — helping customers explore and discover products easily.
 
 ---
 
-## 🛠️ Technologies Used
-- HTML5  
-- CSS3 (responsive with media queries)  
-- Git & GitHub for version control  
-- Trello or GitHub Projects for task management  
+## ✨ Features
+- 🛍️ **Homepage** with featured products and brand presentation  
+- 📦 **Product categories** (Natural & Organic, Skincare, Hygiene, Baby & Mom, Vitamins, etc.)  
+- 🔍 **Product details page** with images, prices, and related items  
+- ❓ **FAQ section** with accordion-style Q&A  
+- 💬 **Contact section** with form and social links  
+- 📱 **Fully responsive** design (mobile + desktop)  
+- ⚡ **Fast performance** with deployment on **Vercel**
 
+---
+
+## 📂 Pages Structure
+| Page | Description |
+|------|--------------|
+| **Home** | Hero section, intro text, categories, featured products |
+| **Categories** | List of all product types with subcategories |
+| **Products** | Product grid showing image, size, and price |
+| **Product Details** | Individual product view with description and “You might also like” |
+| **FAQ** | Common questions ab
