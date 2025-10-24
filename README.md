@@ -22,6 +22,15 @@ It’s designed to be clean, responsive, and user-friendly — helping customers
 
 ---
 
+## 🛠️ Technologies Used
+- HTML5  
+- CSS3 (responsive with media queries)  
+- Git & GitHub for version control  
+- Trello or GitHub Projects for task management  
+
+---
+
+
 ## 📂 Pages Structure
 | Page | Description |
 |------|--------------|
