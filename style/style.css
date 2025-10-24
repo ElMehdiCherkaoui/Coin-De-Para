@@ -6,33 +6,62 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+}
+
+.product-container-mobile {
     position: relative;
 }
 
 .product-items-mobile::scroll-button(right) {
     content: "→";
     position: absolute;
-    left: 79.5%;
+    left: 83.5%;
+    box-shadow: 0 0 10px rgb(58, 58, 58);
     top: 50%;
-    width: 5vw;
-    height: 5vw;
     border-radius: 5vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 5vw;
+    font-size: 2rem;
+    color: black;
+    border: 1px black solid;
+    background-color: rgb(150, 219, 249);
     border: 1px black solid;
 }
 
 .product-items-mobile::scroll-button(left) {
     content: "←";
     position: absolute;
-    left: 16.4%;
+    left: 12.4%;
     top: 50%;
-    width: 5vw;
-    height: 5vw;
+    width: 3vw;
+    display: flex;
+    box-shadow: 0 0 10px rgb(58, 58, 58);
+    justify-content: center;
+    align-content: center;
+    height: 3vw;
     border-radius: 5vw;
+    font-size: 2rem;
+    color: black;
     border: 1px black solid;
+    background-color: rgb(150, 219, 249);
 }
-.padding-fix{
+
+.product-items-mobile::scroll-button(left):active {
+    box-shadow: none;
+}
+
+.product-items-mobile::scroll-button(right):active {
+    box-shadow: none;
+}
+
+.padding-fix {
     flex: 0 0 300px;
 }
+
 .product-items-mobile::-webkit-scrollbar {
     display: none;
 }
@@ -47,6 +76,15 @@
         margin: 0;
         padding: 0;
     }
+
+    .product-items-mobile::scroll-button(right) {
+        display: none;
+    }
+
+    .product-items-mobile::scroll-button(left) {
+        display: none;
+    }
+
 
     .nav-desk {
         display: none;
@@ -70,7 +108,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-                background-color: #eaf4f4;
+        background-color: #eaf4f4;
         padding: 3vw;
         border-radius: 5vw;
     }
@@ -325,11 +363,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-                background-color: #eaf4f4;
+        background-color: #eaf4f4;
         padding: 3vw;
         border-radius: 5vw;
     }
-    
+
 
     .product-items-mobile {
         display: flex;
@@ -678,98 +716,118 @@
 
 /* This is for Reda Louraibi */
 @media (max-width: 767px) {
-  #faq-title h1 {
-    background-color: #a4c3b2;
-    display: grid;
-    justify-content: center;
-    border-radius: 10em;
-    padding: 0.8em 3.5em;
-  }
-  #faq-title {
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-  }
-  .content {
-    display: grid;
-    padding: 1em;
-  }
-  .column {
-    background-color: #cce3de;
-    border-radius: 20px;
-    padding: 2em 1em;
-    margin-bottom: 1em;
-    box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.2);
-  }
-  .faq-card {
-    padding: 0.5em 1em;
-  }
-  .faq-item {
-    background-color: #eaf4f4;
-    border-radius: 10px;
-    display: grid;
-    grid-template-rows: auto;
-    padding: 1em;
-    box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.2);
-  }
-  .icon {
-    font-size: 2em;
-  }
-  .text {
-    line-height: 2.2em;
-  }
-  .title {
-    font-size: 1.3em;
-  }
-  .subtitle {
-    font-size: 0.8em;
-  }
-  .form-title h1 {
-    display: none;
-  }
-  .form-title h2 {
-    text-align: center;
-    font-size: 2.2em;
-    display: grid;
-  }
-  .form-row {
-    display: grid;
-    align-items: center;
-    padding: 1em;
-  }
-  .form-group {
-    padding: 1em;
-    grid-template-columns: 1fr;
-    display: grid;
-    line-height: 2em;
-  }
-  .form-group input {
-    padding: 1em 3em;
-    border-radius: 10px;
-    display: grid;
-  }
-  #date,
-  #name,
-  #email,
-  #time {
-    padding: 1em;
-  }
-  #date,
-  #time {
-    border: 2px solid#E1E1E1;
-  }
-  #name,
-  #email {
-    border: 1px solid #2677bc;
-  }
-  .form-textarea {
-    border-radius: 15px;
-    padding: 1em;
-    border: 1px solid #2677bc;
-  }
-  .group--description {
-    padding: 2em;
-  }
+    #faq-title h1 {
+        background-color: #a4c3b2;
+        display: grid;
+        justify-content: center;
+        border-radius: 10em;
+        padding: 0.8em 3.5em;
+    }
+
+    #faq-title {
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content {
+        display: grid;
+        padding: 1em;
+    }
+
+    .column {
+        background-color: #cce3de;
+        border-radius: 20px;
+        padding: 2em 1em;
+        margin-bottom: 1em;
+        box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.2);
+    }
+
+    .faq-card {
+        padding: 0.5em 1em;
+    }
+
+    .faq-item {
+        background-color: #eaf4f4;
+        border-radius: 10px;
+        display: grid;
+        grid-template-rows: auto;
+        padding: 1em;
+        box-shadow: 15px 15px 15px hsla(0, 0%, 0%, 0.2);
+    }
+
+    .icon {
+        font-size: 2em;
+    }
+
+    .text {
+        line-height: 2.2em;
+    }
+
+    .title {
+        font-size: 1.3em;
+    }
+
+    .subtitle {
+        font-size: 0.8em;
+    }
+
+    .form-title h1 {
+        display: none;
+    }
+
+    .form-title h2 {
+        text-align: center;
+        font-size: 2.2em;
+        display: grid;
+    }
+
+    .form-row {
+        display: grid;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .form-group {
+        padding: 1em;
+        grid-template-columns: 1fr;
+        display: grid;
+        line-height: 2em;
+    }
+
+    .form-group input {
+        padding: 1em 3em;
+        border-radius: 10px;
+        display: grid;
+    }
+
+    #date,
+    #name,
+    #email,
+    #time {
+        padding: 1em;
+    }
+
+    #date,
+    #time {
+        border: 2px solid#E1E1E1;
+    }
+
+    #name,
+    #email {
+        border: 1px solid #2677bc;
+    }
+
+    .form-textarea {
+        border-radius: 15px;
+        padding: 1em;
+        border: 1px solid #2677bc;
+    }
+
+    .group--description {
+        padding: 2em;
+    }
+
     .submit-btn {
         width: 90%;
         padding: 16px;
@@ -787,18 +845,19 @@
         padding: 1em;
     }
 
-  .submit-btn i {
-    font-size: 16px;
-  }
-  .faq-item summary {
-  cursor: pointer;
-  list-style: none;
-}
+    .submit-btn i {
+        font-size: 16px;
+    }
 
-.faq-item p{
-  color: black;
-  gap: 20px;
-} 
+    .faq-item summary {
+        cursor: pointer;
+        list-style: none;
+    }
+
+    .faq-item p {
+        color: black;
+        gap: 20px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -851,15 +910,15 @@
         display: flex;
     }
 
-  .faq-item {
-    background-color: #eaf4f4;
-    border-radius: 10px;
-    padding: 18px 20px;
-    display: grid;
-    grid-template-rows: auto;
-    gap: 15px;
-    width: 100%;
-  }
+    .faq-item {
+        background-color: #eaf4f4;
+        border-radius: 10px;
+        padding: 18px 20px;
+        display: grid;
+        grid-template-rows: auto;
+        gap: 15px;
+        width: 100%;
+    }
 
     .icon {
         font-size: 24px;
@@ -984,22 +1043,25 @@
         margin-top: 8px;
     }
 
-  .submit-btn i {
-    font-size: 16px;
-  }
-.faq-item summary {
-  display: flex;
-  justify-content: space-between;
-  cursor: pointer;
-  list-style: none;
-}
-.faq-item summary:checked{
-  display: none;
-}
-.faq-item p{
-  color: black;
-  gap: 20px;
-}
+    .submit-btn i {
+        font-size: 16px;
+    }
+
+    .faq-item summary {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        list-style: none;
+    }
+
+    .faq-item summary:checked {
+        display: none;
+    }
+
+    .faq-item p {
+        color: black;
+        gap: 20px;
+    }
 }
 
 /* This is for Mohamed Attefi */
@@ -1200,16 +1262,17 @@ a:hover {
     font-family: "Poppins", sans-serif;
 }
 
-.pd-bar{
-  width: 90vw;
+.pd-bar {
+    width: 90vw;
     background-color: #a4c3b2;
     text-align: center;
     border-radius: 20px;
     padding: 5px 0;
     margin: 42px auto;
 }
+
 .pd-bar h1 {
-  letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 .Product-details {
@@ -1447,26 +1510,26 @@ a:hover {
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
-  .Product-details {
-    width: 90%;
-    padding: 25px;
-  }
+    .Product-details {
+        width: 90%;
+        padding: 25px;
+    }
 
-  .pd-container {
-    display: flex;
-    flex-direction: column-reverse;
-    
-    
-  }
+    .pd-container {
+        display: flex;
+        flex-direction: column-reverse;
 
-  .pd-infos {
-    width: 100%;
-    margin: auto;
-    padding-top: 20px;
-    
-  }
 
-  
+    }
+
+    .pd-infos {
+        width: 100%;
+        margin: auto;
+        padding-top: 20px;
+
+    }
+
+
 
 
     .pd-image img {
@@ -1486,33 +1549,33 @@ a:hover {
         gap: 20px;
     }
 
-  .pd-btn {
-    width: 100%;
-    
-
-    display: flex;
-    justify-content: space-between;
-    
-  }
-
-  .add-to-cart button {
-    width: fit-content;
-    padding: 5px;
-    height: fit-content;
-    border-radius: 9px;
-  }
-
-  .add-to-cart {
-    padding: 10px;
-    padding: 0;
-  }
+    .pd-btn {
+        width: 100%;
 
 
-.adding {
-  width: 70%;
-  margin: auto;
-  
-}
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .add-to-cart button {
+        width: fit-content;
+        padding: 5px;
+        height: fit-content;
+        border-radius: 9px;
+    }
+
+    .add-to-cart {
+        padding: 10px;
+        padding: 0;
+    }
+
+
+    .adding {
+        width: 70%;
+        margin: auto;
+
+    }
 
     .reviews {
         display: flex;
@@ -1540,53 +1603,54 @@ a:hover {
         font-weight: bold;
     }
 
-  .similar-product-container {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
+    .similar-product-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
 
-  .similar-product-card {
-    display: flex;
-    flex-direction: column;
-    
-    height: fit-content;
-    width: 100%;
-  }
+    .similar-product-card {
+        display: flex;
+        flex-direction: column;
 
-  .infos {
-    border: none ;
-    display: flex;
-    gap: 11px;
-    
-    
-  }
-  .infos h3 { 
-    font-size: medium;
-  }
+        height: fit-content;
+        width: 100%;
+    }
 
-  .infos p { 
-    font-size:small ;
-  }
-
-.infos button {
-  
-  margin-bottom: 20px;
-  width: fit-content;
-  
-}
+    .infos {
+        border: none;
+        display: flex;
+        gap: 11px;
 
 
+    }
+
+    .infos h3 {
+        font-size: medium;
+    }
+
+    .infos p {
+        font-size: small;
+    }
+
+    .infos button {
+
+        margin-bottom: 20px;
+        width: fit-content;
+
+    }
 
 
-  
 
-  .similar-product-card img {
-    width: 100%;
-    border-bottom: #000 1px solid;
-    margin-bottom: 12px;
-    border-radius: 14px 14px 0px 0px;
-  }
+
+
+
+    .similar-product-card img {
+        width: 100%;
+        border-bottom: #000 1px solid;
+        margin-bottom: 12px;
+        border-radius: 14px 14px 0px 0px;
+    }
 
 
 
