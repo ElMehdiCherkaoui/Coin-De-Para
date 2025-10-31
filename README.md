@@ -1,41 +1,31 @@
-# 🧴 Coin de Para  
-**Votre bien-être, notre priorité au naturel.**
+# 💰 BZTAMI  
+**Gérez vos revenus et dépenses facilement — votre budget, sous contrôle.**
 
-🌐 [Visit Website](https://coin-de-para.vercel.app/)
+🌐 [Visit Website](https://bztamiapp.netlify.app/)
 
 ---
 
 ## 🧾 Overview
-**Coin de Para** is a modern parapharmacy website offering a wide range of natural and wellness products.  
-It’s designed to be clean, responsive, and user-friendly — helping customers explore and discover products easily.
+**BZTAMI** is a simple and intuitive web application for managing your personal finances.  
+It helps users track their **revenues** and **expenses**, visualize totals instantly, and maintain financial balance — all in one clean, user-friendly dashboard.
 
 ---
 
 ## ✨ Features
-- 🛍️ **Homepage** with featured products and brand presentation  
-- 📦 **Product categories** (Natural & Organic, Skincare, Hygiene, Baby & Mom, Vitamins, etc.)  
-- 🔍 **Product details page** with images, prices, and related items  
-- ❓ **FAQ section** with accordion-style Q&A  
-- 💬 **Contact section** with form and social links  
-- 📱 **Fully responsive** design (mobile + desktop)  
-- ⚡ **Fast performance** with deployment on **Vercel**
+- ➕ **Add revenues or expenses** with title, description, amount, and date  
+- 📊 **Automatic balance calculation** (revenues – expenses)  
+- 💾 **Local storage persistence** (data saved even after refresh)  
+- 🗑️ **Delete or update entries** easily  
+- ⚙️ **Validation alerts** with **SweetAlert** for confirmations and warnings  
+- 🎨 **Modern, minimal interface** built with clean HTML/CSS  
+- 📱 **Fully responsive** layout (works on desktop and mobile)
 
 ---
 
 ## 🛠️ Technologies Used
 - HTML5  
-- CSS3 (responsive with media queries)  
-- Git & GitHub for version control  
-- Trello or GitHub Projects for task management  
-
----
-
-
-## 📂 Pages Structure
-| Page | Description |
-|------|--------------|
-| **Home** | Hero section, intro text, categories, featured products |
-| **Categories** | List of all product types with subcategories |
-| **Products** | Product grid showing image, size, and price |
-| **Product Details** | Individual product view with description and “You might also like” |
-| **FAQ** | Common questions ab
+- CSS3 (or Tailwind CSS if you used it)  
+- JavaScript (Vanilla JS)  
+- SweetAlert (for modals and confirmations)  
+- LocalStorage (for saving user data)  
+- Netlify (for de
