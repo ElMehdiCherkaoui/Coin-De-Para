@@ -1,7 +1,7 @@
 # 💰 BZTAMI  
 **Gérez vos revenus et dépenses facilement — votre budget, sous contrôle.**
 
-🌐 [Visit Website](https://bztamiapp.netlify.app/)
+🌐 [Visit Website](https://profound-kheer-5ef8bd.netlify.app/)
 
 ---
 
